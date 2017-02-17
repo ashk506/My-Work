@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>My JavaScript Page </title>
+    
+<link type="text/css" rel="stylesheet" href="JSProg2.CSS">
+    
+   
+        <body>    
+    <input type="text" id="num1" name="num1">
+        <input type="text" id="num2" name="num2"><br>
+            
+            <button id="Multiply" onclick="multiplyBy()"> Multiply
+    </button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id="add" onclick="addBy()"> Add
+    </button>
+            
+      <div id="Sol"> 
+          
+          
+                </div>
+            
+                 
+         <script type="text/javascript">
+        function multiplyBy(){
+             
+    var m=document.getElementById("num1").value;
+        var n=document.getElementById("num2").value;
+        var r=m*n;
+        document.getElementById("Sol").innerHTML=r;
+            return;
+        }
+       
+            
+        function addBy(){
+    var m=document.getElementById("num1").value;
+        var n=document.getElementById("num2").value;
+        var r=+m + +n;
+        document.getElementById("Sol").innerHTML=r;
+            
+            return;
+        }
+            </script>
+        
+    
+    
+    
+    
+    </body>
+
+    
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

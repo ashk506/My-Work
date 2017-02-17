@@ -1,0 +1,12 @@
+body {
+            background-color: bisque;
+            border: 2px;
+        }
+#Sol{
+
+    margin-top: 150px;
+    margin-left: 100px;
+    border:1px solid black;
+    height:20px;
+    width:70px;
+}

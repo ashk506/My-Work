@@ -1,0 +1,25 @@
+html{margin:0px;padding:0px;overflow-x:hidden;}
+.body{float:left;width:100%;margin:0;}
+.filters{float:left;width:15%;padding:0 5px;background-color:#f1f1f1;border-right:1px solid rgb(52, 147, 193)}
+.mobile-zone{float:left;width:80%;padding:10px;}
+.refine{border-bottom:1px dotted #ccc;padding:10px 0;margin:0}
+.phone {color:#000;transition:box-shadow 0.4s ease-in-out;float: left;height:250px;width: 22%;cursor:pointer;text-align:center;padding:10px;}
+.phone:visited,.phone:active{color:#000;} 
+.phone:hover{box-shadow: 0 0 5px #000;border-radius: 5px;}
+.pImg,.heroImg,.moreImgs{float:left;width:100%}
+.pName{float:left;width:100%;margin-top:10px;}
+.img-zone{float:left;width:30%;}
+.heroImg{margin:50px 0 30px 0;transition: all .2s ease-in-out;cursor:crosshair;}
+.galleryImg{ transition: all .2s ease-in-out; }
+.heroImg:hover,.galleryImg:hover { transform: scale(1.1) }
+.moreImgs {text-align:center;}
+.details-zone{float:left;width:68%;}
+.filter{margin-bottom:10px;}
+.param{float:left;width:100%;padding:10px 0;border-bottom:1px solid #ccc;}
+.param-head{font-weight:bold;font-size:14px;margin-bottom:2px;}
+.galleryImg{width:50px;float:left;border:1px solid #ccc;margin:10px;padding:10px;}
+h1{text-align:center;border-bottom:1px solid #ccc;margin:0;padding:10px 0;background-color: rgb(52, 147, 193);color:#fff}
+.inputFilt{float:left;width:98%;padding:5px 0;}
+input,.filter{cursor:pointer;}
+.filt-head{width:100%;    background-color: rgb(52, 147, 147);
+color:#fff;padding:10px 5px;}

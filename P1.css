@@ -1,0 +1,21 @@
+body{
+background: linear-gradient(to right, powderblue, yellow);
+}
+h1 {
+
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    text-align: center;
+}
+p {
+    color: green;
+    text-align: center;
+}
+#box-shadow{
+    height: 400px;
+    width: 350px;
+    padding: 5px 2px;
+    background-color: bisque;
+    color: coral;
+    box-shadow: 10px 10px;
+}

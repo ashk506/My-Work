@@ -1,0 +1,56 @@
+body{
+    
+    background-blend-mode: hard-light;
+ 
+}
+
+#header{
+    
+    background-color: burlywood;
+    height: 70px;
+    
+}
+
+#header h2{
+    
+    font-family: cursive;
+    font-size-adjust: auto;
+    text-align: center;
+}
+
+#header a{
+    
+    padding-left: 9px;
+}
+
+#container {
+    
+     background-color: gainsboro;
+    height: 370px;
+    width: 700px;
+    padding: 0 0 0 0;
+    float: left;
+    
+}
+
+
+#wrapper {
+    
+     background-color: #708629;
+    height: 370px;
+    width: 600px;
+    padding: 0 0 0 0;
+    float: right;
+    
+    
+}
+
+#Footer {
+
+    height: 50px;
+    background-color: red;
+    clear: both;
+    
+    
+    
+}
